@@ -23,6 +23,7 @@ class BaseApplication: Application() {
     }
 
 
+    //伴生对象
     companion object{
         @SuppressLint("StaticFieldLeak")
         lateinit var context: Context
