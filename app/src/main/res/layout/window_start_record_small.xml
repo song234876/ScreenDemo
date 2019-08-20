@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/start_record_float_window"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:layout_width="108dp"
+            android:layout_height="44dp"
+            android:orientation="horizontal"
+            android:background="@drawable/shape_window_float_bg"
+            android:gravity="center_vertical">
+
+        <ImageView
+                android:id="@+id/ivRecordIcon"
+                android:layout_marginStart="5dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@mipmap/icon_float_window_torecord"/>
+
+        <TextView
+                android:id="@+id/tvStart"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:paddingRight="5dp"
+                android:gravity="center"
+                android:text="开始"
+                android:textSize="15sp"
+                android:textColor="@android:color/white"
+                />
+
+    </LinearLayout>
+
+</FrameLayout>
