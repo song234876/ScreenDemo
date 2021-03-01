@@ -11,3 +11,9 @@
 /build
 /captures
 .externalNativeBuild
+.cxx
+local.properties
+package.json
+package-lock.json
+/node_modules
+commitlint.config.js
